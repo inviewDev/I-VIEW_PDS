@@ -694,8 +694,8 @@
     src: url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff');
   }
 
-  /* ONE Mobile Title */
-  @font-face {
+/* ONE Mobile Title */
+@font-face {
     font-family: 'ONE-Mobile-Title';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
     font-weight: normal;
