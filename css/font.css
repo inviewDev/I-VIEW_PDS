@@ -152,6 +152,13 @@
     font-display: swap;
 }
 
+/* a black */
+@font-face {
+    font-family: 'aBlack';
+    font-style: bold;
+    src:url(../css/font/a_black_B.ttf) format("truetype");
+}
+
 /* Happiness Sans */
 @font-face {
     font-family: 'Happiness-Sans';
