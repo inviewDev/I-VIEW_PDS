@@ -21,6 +21,9 @@
 /* Nanumsquare */
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
 
+/* Elice DX Neolli */
+@import url("https://font.elice.io/css?family=Elice+DX+Neolli");
+
 /* jaemin */
 @font-face {
     font-family: 'Jaemin';
