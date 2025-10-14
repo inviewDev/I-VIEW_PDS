@@ -1,777 +1,267 @@
 @charset "utf-8";
-
 /* fontawesome */
 @import url(fontawesome.css);
-
 /* Montserrat */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300; 400; 500; 600; 700&display=swap');
 /* Noto Sans */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900; 1,100..900&display=swap');
 /* Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100; 0,300; 0,400; 0,500; 0,700; 0,900; 1,100; 1,300; 1,400; 1,500; 1,700; 1,900&display=swap');
 /* Garamond */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800; 1,400..800&display=swap');
 /* Pretendard */
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
-
 /* Nanumsquare */
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
-
 /* Elice DX Neolli */
 @import url("https://font.elice.io/css?family=Elice+DX+Neolli");
-
 /* jaemin */
-@font-face {
-    font-family: 'Jaemin';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jaemin.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'Jaemin'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jaemin.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* HSBombaram */
-@font-face {
-    font-family: 'HSBombaram';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'HSBombaram'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* ScoreDream */
-@font-face {
-    font-family: 'SCoreDream';
-    font-weight: 100; 
-    font-style: normal; 
-    src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff) format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'SCoreDream';
-    font-weight: 200; 
-    font-style: normal; 
-    src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff) format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'SCoreDream';
-    font-weight: 300; 
-    font-style: normal; 
-    src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff) format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'SCoreDream';
-    font-weight: 400; 
-    font-style: normal; 
-    src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff) format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'SCoreDream';
-    font-weight: 500; 
-    font-style: normal; 
-    src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff) format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'SCoreDream';
-    font-weight: 600; 
-    font-style: normal; 
-    src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff) format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'SCoreDream';
-    font-weight: 700; 
-    font-style: normal; 
-    src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff) format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'SCoreDream';
-    font-weight: 800; 
-    font-style: normal; 
-    src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff) format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'SCoreDream';
-    font-weight: 900; 
-    font-style: normal; 
-    src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff) format('woff');
-    font-display: swap;
-}
+@font-face { font-family: 'SCoreDream'; font-weight: 100; font-style: normal; src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff) format('woff'); font-display: swap; } 
+@font-face { font-family: 'SCoreDream'; font-weight: 200; font-style: normal; src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff) format('woff'); font-display: swap; } 
+@font-face { font-family: 'SCoreDream'; font-weight: 300; font-style: normal; src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff) format('woff'); font-display: swap; } 
+@font-face { font-family: 'SCoreDream'; font-weight: 400; font-style: normal; src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff) format('woff'); font-display: swap; } 
+@font-face { font-family: 'SCoreDream'; font-weight: 500; font-style: normal; src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff) format('woff'); font-display: swap; } 
+@font-face { font-family: 'SCoreDream'; font-weight: 600; font-style: normal; src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff) format('woff'); font-display: swap; } 
+@font-face { font-family: 'SCoreDream'; font-weight: 700; font-style: normal; src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff) format('woff'); font-display: swap; } 
+@font-face { font-family: 'SCoreDream'; font-weight: 800; font-style: normal; src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff) format('woff'); font-display: swap; } 
+@font-face { font-family: 'SCoreDream'; font-weight: 900; font-style: normal; src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff) format('woff'); font-display: swap; } 
 
 /* Noto Sans CJK KR */
-@font-face {
-    font-weight: 200;
-    font-family: 'NotoSansKR';
-    font-style: light;
-    src: url(font/NotoSansKR-Light.woff2) format("woff2"),url(font/NotoSansKR-Light.woff) format("woff"),
-    url(font/NotoSansKR-Light.otf)format("opentype");
-    font-display: swap;
-}
-@font-face {
-    font-weight: 400;
-    font-family: 'NotoSansKR';
-    font-style: normal;
-    src: url(font/NotoSansKR-Regular.woff2) format("woff2"),url(font/NotoSansKR-Regular.woff) format("woff"),
-    url(font/NotoSansKR-Regular.otf)format("opentype");
-    font-display: swap;
-}
-@font-face {
-    font-weight: 500;
-    font-family: 'NotoSansKR';
-    font-style: medium;
-    src: url(font/NotoSansKR-Medium.woff2) format("woff2"),url(font/NotoSansKR-Medium.woff) format("woff"),
-    url(font/NotoSansKR-Medium.otf)format("opentype");
-    font-display: swap;
-}
-@font-face {
-    font-weight: 700;
-    font-family: 'NotoSansKR';
-    font-style: bold;
-    src: url(font/NotoSansKR-Bold.woff2) format("woff2"),url(font/NotoSansKR-Bold.woff) format("woff"),
-    url(font/NotoSansKR-Bold.otf)format("opentype");
-    font-display: swap;
-}
+@font-face { font-weight: 200; font-family: 'NotoSansKR'; font-style: light; src: url(font/NotoSansKR-Light.woff2) format("woff2"),url(font/NotoSansKR-Light.woff) format("woff"),
+ url(font/NotoSansKR-Light.otf)format("opentype"); font-display: swap; } 
+@font-face { font-weight: 400; font-family: 'NotoSansKR'; font-style: normal; src: url(font/NotoSansKR-Regular.woff2) format("woff2"),url(font/NotoSansKR-Regular.woff) format("woff"),
+ url(font/NotoSansKR-Regular.otf)format("opentype"); font-display: swap; } 
+@font-face { font-weight: 500; font-family: 'NotoSansKR'; font-style: medium; src: url(font/NotoSansKR-Medium.woff2) format("woff2"),url(font/NotoSansKR-Medium.woff) format("woff"),
+ url(font/NotoSansKR-Medium.otf)format("opentype"); font-display: swap; } 
+@font-face { font-weight: 700; font-family: 'NotoSansKR'; font-style: bold; src: url(font/NotoSansKR-Bold.woff2) format("woff2"),url(font/NotoSansKR-Bold.woff) format("woff"),
+ url(font/NotoSansKR-Bold.otf)format("opentype"); font-display: swap; } 
 
 /* Segoe */
-@font-face {
-    font-weight: 500;
-    font-family: 'Segoe-UI';
-    font-style: normal;
-    src: url(font/Segoe-UI-Regular.woff2) format("woff2"),url(font/Segoe-UI-Regular.woff) format("woff");
-    font-display: swap;
-}
-@font-face {
-    font-weight: 500;
-    font-family: 'Segoe-UI';
-    font-style: normal;
-    src: url(font/Segoe-UI-Bold.woff2) format("woff2"),url(font/Segoe-UI-Bold.woff) format("woff");
-    font-display: swap;
-}
+@font-face { font-weight: 500; font-family: 'Segoe-UI'; font-style: normal; src: url(font/Segoe-UI-Regular.woff2) format("woff2"),url(font/Segoe-UI-Regular.woff) format("woff"); font-display: swap; } 
+@font-face { font-weight: 500; font-family: 'Segoe-UI'; font-style: normal; src: url(font/Segoe-UI-Bold.woff2) format("woff2"),url(font/Segoe-UI-Bold.woff) format("woff"); font-display: swap; } 
 
 /* a black */
-@font-face {
-    font-family: 'aBlack';
-    font-style: bold;
-    src:url(../css/font/a_black_B.ttf) format("truetype");
-}
+@font-face { font-family: 'aBlack'; font-style: bold; src:url(../css/font/a_black_B.ttf) format("truetype"); } 
 
 /* Happiness Sans */
-@font-face {
-    font-family: 'Happiness-Sans';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Happiness-Sans';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: bold;
-}
+@font-face { font-family: 'Happiness-Sans'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; } 
+@font-face { font-family: 'Happiness-Sans'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2'); font-weight: 700; font-style: bold; } 
 
 /* tvN Enjoystories */
-@font-face {
-    font-family: 'OTEnjoystoriesBA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'OTEnjoystoriesBA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* ok gung-seo */
-@font-face {
-    font-family: 'OKGUNG';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/OKGUNG.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'OKGUNG'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/OKGUNG.woff2') format('woff2'); font-weight: normal; font-style: normal; } 
 
 /* GmarketSans */
-@font-face {
-    font-family: 'GmarketSans';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
-    font-weight: 200;
-    font-style: Medium;
-}
-@font-face {
-    font-family: 'GmarketSans';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'GmarketSans';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
-    font-weight: 600;
-    font-style: Bold;
-}
+@font-face { font-family: 'GmarketSans'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff'); font-weight: 200; font-style: Medium; } 
+@font-face { font-family: 'GmarketSans'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff'); font-weight: 400; font-style: normal; } 
+@font-face { font-family: 'GmarketSans'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff'); font-weight: 600; font-style: Bold; } 
 
 /* GangwonEduPower */
-@font-face {
-    font-family: 'GangwonEduPowerExtraBoldA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'GangwonEduPowerExtraBoldA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* aggro */
-@font-face {
-    font-family: 'SBAggro';
-    src:url(../css/font/SBAggroL.ttf) format("truetype");
-    font-weight: 400;
-    font-style: light;
-}
-@font-face {
-    font-family: 'SBAggro';
-    src:url(../css/font/SBAggroM.ttf) format("truetype");
-    font-weight: 500;
-    font-style: medium;
-}
-@font-face {
-    font-family: 'SBAggro';
-    src:url(../css/font/SBAggroB.ttf) format("truetype");
-    font-weight: 600;
-    font-style: bold;
-}
+@font-face { font-family: 'SBAggro'; src:url(../css/font/SBAggroL.ttf) format("truetype"); font-weight: 400; font-style: light; } 
+@font-face { font-family: 'SBAggro'; src:url(../css/font/SBAggroM.ttf) format("truetype"); font-weight: 500; font-style: medium; } 
+@font-face { font-family: 'SBAggro'; src:url(../css/font/SBAggroB.ttf) format("truetype"); font-weight: 600; font-style: bold; } 
 
 /* EliceDigitalBaeum */
-@font-face {
-    font-family: 'EliceDigitalBaeum';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum.woff2') format('woff2');
-    font-weight: 400;
-    font-style: medium;
-}
-@font-face {
-    font-family: 'EliceDigitalBaeum';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
-    font-weight: 600;
-    font-style: bold;
-}
+@font-face { font-family: 'EliceDigitalBaeum'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum.woff2') format('woff2'); font-weight: 400; font-style: medium; } 
+@font-face { font-family: 'EliceDigitalBaeum'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2'); font-weight: 600; font-style: bold; } 
 
 /* LOTTERIACHAB */
-@font-face {
-    font-family: 'lotteriachab';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'lotteriachab'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2'); font-weight: normal; font-style: normal; } 
 
 /* Consola Mono */
-@font-face {
-    font-family: 'ConsolaMono';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Consola Mono'), url('https://fonts.cdnfonts.com/s/78407/ConsolaMono-Book.woff') format('woff');
-}
-@font-face {
-    font-family: 'ConsolaMono';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Consola Mono'), url('https://fonts.cdnfonts.com/s/78407/ConsolaMono-Bold.woff') format('woff');
-}
+@font-face { font-family: 'ConsolaMono'; font-style: normal; font-weight: 400; src: local('Consola Mono'), url('https://fonts.cdnfonts.com/s/78407/ConsolaMono-Book.woff') format('woff'); } 
+@font-face { font-family: 'ConsolaMono'; font-style: normal; font-weight: 700; src: local('Consola Mono'), url('https://fonts.cdnfonts.com/s/78407/ConsolaMono-Bold.woff') format('woff'); } 
 
 /* bodoni */
-@font-face{
-    font-family:'bodoni';
-    font-style:normal;
-    font-weight:400;
-    src:local('Bodoni'),url(https://fonts.cdnfonts.com/s/14285/bodoni_[allfont.net].woff) format('woff');
-}
+@font-face { font-family:'bodoni'; font-style:normal; font-weight:400; src:local('Bodoni'),url(https://fonts.cdnfonts.com/s/14285/bodoni_[allfont.net].woff) format('woff'); } 
 
 /* maruburi */
-@font-face {
-    font-family: 'MaruBuri';
-    font-weight: 400; 
-    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
-    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix) format("embedded-opentype"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format("woff2"),
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff) format("woff"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf) format("truetype");
-}
+@font-face { font-family: 'MaruBuri'; font-weight: 400; src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot); src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix) format("embedded-opentype"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format("woff2"),
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff) format("woff"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf) format("truetype"); } 
 
-@font-face {
-    font-family: 'MaruBuri';
-    font-weight: 500; 
-    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.eot);
-    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.eot?#iefix) format("embedded-opentype"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2) format("woff2"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff) format("woff"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.ttf) format("truetype");
-}
+@font-face { font-family: 'MaruBuri'; font-weight: 500; src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.eot); src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.eot?#iefix) format("embedded-opentype"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2) format("woff2"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff) format("woff"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.ttf) format("truetype"); } 
 
-@font-face {
-    font-family: 'MaruBuri';
-    font-weight: 600; 
-    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot);
-    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot?#iefix) format("embedded-opentype"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2) format("woff2"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff) format("woff"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.ttf) format("truetype");
-}
+@font-face { font-family: 'MaruBuri'; font-weight: 600; src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot); src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot?#iefix) format("embedded-opentype"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2) format("woff2"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff) format("woff"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.ttf) format("truetype"); } 
 
-@font-face {
-    font-family: 'MaruBuri';
-    font-weight: 300; 
-    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot);
-    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot?#iefix) format("embedded-opentype"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2) format("woff2"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff) format("woff"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.ttf) format("truetype");
-}
+@font-face { font-family: 'MaruBuri'; font-weight: 300; src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot); src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot?#iefix) format("embedded-opentype"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2) format("woff2"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff) format("woff"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.ttf) format("truetype"); } 
 
-@font-face {
-    font-family: 'MaruBuri';
-    font-weight: 100; 
-    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot);
-    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot?#iefix) format("embedded-opentype"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2) format("woff2"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff) format("woff"), 
-    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.ttf) format("truetype");
-}
+@font-face { font-family: 'MaruBuri'; font-weight: 100; src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot); src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot?#iefix) format("embedded-opentype"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2) format("woff2"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff) format("woff"), 
+ url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.ttf) format("truetype"); } 
 
 /* Apple SD Gothic Neo */
-@font-face { 
-    font-family:'Apple SD Gothic Neo'; 
-    font-style:normal; 
-    font-weight:100; 
-    src:local('Apple SD Gothic Neo Thin'),
-        url(../css/font/AppleSDGothicNeoT.woff2) format('woff2'),
-        url(../css/font/AppleSDGothicNeoT.ttf) format("truetype");
-    } 
-@font-face { 
-    font-family:'Apple SD Gothic Neo'; 
-    font-style:normal; 
-    font-weight:200; 
-    src:local('Apple SD Gothic Neo UltraLight'),
-        url(../css/font/AppleSDGothicNeoUL.woff2) format('woff2'),
-        url(../css/font/AppleSDGothicNeoUL.ttf) format("truetype");
-    }
-@font-face { 
-    font-family:'Apple SD Gothic Neo'; 
-    font-style:normal; 
-    font-weight:300; 
-    src:local('Apple SD Gothic Neo Light'),
-        url(../css/font/AppleSDGothicNeoL.woff2) format('woff2'),
-        url(../css/font/AppleSDGothicNeoL.ttf) format("truetype");
-} 
-@font-face { 
-    font-family:'Apple SD Gothic Neo'; 
-    font-style:normal; 
-    font-weight:400; 
-    src:local('Apple SD Gothic Neo Regular'),
-        url(../css/font/AppleSDGothicNeoR.woff2) format('woff2'),
-        url(../css/font/AppleSDGothicNeoR.ttf) format("truetype");
-} 
-@font-face { 
-    font-family:'Apple SD Gothic Neo'; 
-    font-style:normal; 
-    font-weight:500; 
-    src:local('Apple SD Gothic Neo Medium'),
-        url(../css/font/AppleSDGothicNeoM.woff2) format('woff2'),
-        url(../css/font/AppleSDGothicNeoM.ttf) format("truetype");
-} 
-@font-face { 
-    font-family:'Apple SD Gothic Neo'; 
-    font-style:normal; 
-    font-weight:600; 
-    src:local('Apple SD Gothic Neo SemiBold'),
-        url(../css/font/AppleSDGothicNeoSB.woff2) format('woff2'),
-        url(../css/font/AppleSDGothicNeoSB.ttf) format("truetype");
-} 
-@font-face { 
-    font-family:'Apple SD Gothic Neo'; 
-    font-style:normal; 
-    font-weight:700; 
-    src:local('Apple SD Gothic Neo Bold'),
-        url(../css/font/AppleSDGothicNeoB.woff2) format('woff2'),
-        url(../css/font/AppleSDGothicNeoB.ttf) format("truetype");
-} 
-@font-face { 
-    font-family:'Apple SD Gothic Neo'; 
-    font-style:normal; 
-    font-weight:800; 
-    src:local('Apple SD Gothic Neo ExtraBold'),
-        url(../css/font/AppleSDGothicNeoEB.woff2) format('woff2'),
-        url(../css/font/AppleSDGothicNeoEB.ttf) format("truetype");
-} 
-@font-face { 
-    font-family:'Apple SD Gothic Neo'; 
-    font-style:normal; 
-    font-weight:900; 
-    src:local('Apple SD Gothic Neo Heavy'),
-        url(../css/font/AppleSDGothicNeoH.woff2) format('woff2'),
-        url(../css/font/AppleSDGothicNeoH.ttf) format("truetype");
-} 
+@font-face { font-family:'Apple SD Gothic Neo'; font-style:normal; font-weight:100; src:local('Apple SD Gothic Neo Thin'),
+ url(../css/font/AppleSDGothicNeoT.woff2) format('woff2'),
+ url(../css/font/AppleSDGothicNeoT.ttf) format("truetype"); } 
+@font-face { font-family:'Apple SD Gothic Neo'; font-style:normal; font-weight:200; src:local('Apple SD Gothic Neo UltraLight'),
+ url(../css/font/AppleSDGothicNeoUL.woff2) format('woff2'),
+ url(../css/font/AppleSDGothicNeoUL.ttf) format("truetype"); } 
+@font-face { font-family:'Apple SD Gothic Neo'; font-style:normal; font-weight:300; src:local('Apple SD Gothic Neo Light'),
+ url(../css/font/AppleSDGothicNeoL.woff2) format('woff2'),
+ url(../css/font/AppleSDGothicNeoL.ttf) format("truetype"); } 
+@font-face { font-family:'Apple SD Gothic Neo'; font-style:normal; font-weight:400; src:local('Apple SD Gothic Neo Regular'),
+ url(../css/font/AppleSDGothicNeoR.woff2) format('woff2'),
+ url(../css/font/AppleSDGothicNeoR.ttf) format("truetype"); } 
+@font-face { font-family:'Apple SD Gothic Neo'; font-style:normal; font-weight:500; src:local('Apple SD Gothic Neo Medium'),
+ url(../css/font/AppleSDGothicNeoM.woff2) format('woff2'),
+ url(../css/font/AppleSDGothicNeoM.ttf) format("truetype"); } 
+@font-face { font-family:'Apple SD Gothic Neo'; font-style:normal; font-weight:600; src:local('Apple SD Gothic Neo SemiBold'),
+ url(../css/font/AppleSDGothicNeoSB.woff2) format('woff2'),
+ url(../css/font/AppleSDGothicNeoSB.ttf) format("truetype"); } 
+@font-face { font-family:'Apple SD Gothic Neo'; font-style:normal; font-weight:700; src:local('Apple SD Gothic Neo Bold'),
+ url(../css/font/AppleSDGothicNeoB.woff2) format('woff2'),
+ url(../css/font/AppleSDGothicNeoB.ttf) format("truetype"); } 
+@font-face { font-family:'Apple SD Gothic Neo'; font-style:normal; font-weight:800; src:local('Apple SD Gothic Neo ExtraBold'),
+ url(../css/font/AppleSDGothicNeoEB.woff2) format('woff2'),
+ url(../css/font/AppleSDGothicNeoEB.ttf) format("truetype"); } 
+@font-face { font-family:'Apple SD Gothic Neo'; font-style:normal; font-weight:900; src:local('Apple SD Gothic Neo Heavy'),
+ url(../css/font/AppleSDGothicNeoH.woff2) format('woff2'),
+ url(../css/font/AppleSDGothicNeoH.ttf) format("truetype"); } 
 
 /* Moonlight Regular */
-@font-face { 
-    font-family:'Moonlight-Regular'; 
-    font-style:normal; 
-    font-weight:100; 
-    src:url("font/Moonlight-Regular.eot"),
-        url("font/Moonlight-Regular.woff")format("woff"),
-        url("font/Moonlight-Regular.woff2")format("woff2")
-}
+@font-face { font-family:'Moonlight-Regular'; font-style:normal; font-weight:100; src:url("font/Moonlight-Regular.eot"),
+ url("font/Moonlight-Regular.woff")format("woff"),
+ url("font/Moonlight-Regular.woff2")format("woff2")}
 
 /* Moonlight */
-@font-face { 
-    font-family:'Moonlight'; 
-    font-style:normal; 
-    font-weight:100; 
-    src:url("font/Moonlight.ttf")format("truetype"),
-        url("font/Moonlight.otf")format("opentype");
-}
+@font-face { font-family:'Moonlight'; font-style:normal; font-weight:100; src:url("font/Moonlight.ttf")format("truetype"),
+ url("font/Moonlight.otf")format("opentype"); } 
 
-/* Creattion  */
-@font-face { 
-    font-family:'Creattion'; 
-    font-style:normal; 
-    font-weight:400; 
-    src:url("font/Creattion.ttf")format("truetype"),
-        url("font/Creattion.otf")format("opentype");
-}
+/* Creattion */
+@font-face { font-family:'Creattion'; font-style:normal; font-weight:400; src:url("font/Creattion.ttf")format("truetype"),
+ url("font/Creattion.otf")format("opentype"); } 
 
 /* GowunDodum-Regular */
-@font-face {
-    font-family: 'GowunDodum-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'GowunDodum-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* KoPubWorld Dotum */
-@font-face { 
-    font-family:'KoPubWorld Dotum'; 
-    font-style:normal; 
-    font-weight:400; 
-    src:local('KoPubWorldDotum'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Medium.woff2) format('woff2'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Medium.woff) format('woff'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Medium.otf) format('opentype')
-}
-@font-face { 
-    font-family:'KoPubWorld Dotum'; 
-    font-style:normal; 
-    font-weight:700; 
-    src:local('KoPubWorldDotum'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Bold.woff2) format('woff2'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Bold.woff) format('woff'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Bold.otf) format('opentype')
-}
+@font-face { font-family:'KoPubWorld Dotum'; font-style:normal; font-weight:400; src:local('KoPubWorldDotum'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Medium.woff2) format('woff2'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Medium.woff) format('woff'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Medium.otf) format('opentype')}
+@font-face { font-family:'KoPubWorld Dotum'; font-style:normal; font-weight:700; src:local('KoPubWorldDotum'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Bold.woff2) format('woff2'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Bold.woff) format('woff'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Dotum-Bold.otf) format('opentype')}
 
 /* KoPubWorld Batang */
-@font-face { 
-    font-family:'KoPubWorld Batang';
-    font-style:normal; 
-    font-weight:300; 
-    src:local('KoPubWorldBatang'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Light.woff2) format('woff2'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Light.woff) format('woff'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Light.otf) format('opentype')
-} 
-@font-face { 
-    font-family:'KoPubWorld Batang';
-    font-style:normal; 
-    font-weight:400; 
-    src:local('KoPubWorldBatang'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Medium.woff2) format('woff2'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Medium.woff) format('woff'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Medium.otf) format('opentype')
-} 
-@font-face { 
-    font-family:'KoPubWorld Batang';
-    font-style:normal; 
-    font-weight:700; 
-    src:local('KoPubWorldBatang'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Bold.woff2) format('woff2'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Bold.woff) format('woff'),
-        url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Bold.otf) format('opentype')
-} 
+@font-face { font-family:'KoPubWorld Batang'; font-style:normal; font-weight:300; src:local('KoPubWorldBatang'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Light.woff2) format('woff2'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Light.woff) format('woff'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Light.otf) format('opentype')}
+@font-face { font-family:'KoPubWorld Batang'; font-style:normal; font-weight:400; src:local('KoPubWorldBatang'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Medium.woff2) format('woff2'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Medium.woff) format('woff'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Medium.otf) format('opentype')}
+@font-face { font-family:'KoPubWorld Batang'; font-style:normal; font-weight:700; src:local('KoPubWorldBatang'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Bold.woff2) format('woff2'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Bold.woff) format('woff'),
+ url(https://cdn.jsdelivr.net/npm/font-kopubworld@1.0/fonts/KoPubWorld-Batang-Bold.otf) format('opentype')}
 
 /* InkLipquid */
-@font-face {
-    font-family: 'InkLipquid';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'InkLipquid'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* ChosunGs */
-@font-face {
-    font-family: 'ChosunGs';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'ChosunGs'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* KCC Eunyoung */
-@font-face {
-    font-family: 'kccEunyoung';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'kccEunyoung'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* Jalnan */
-@font-face {
-    font-family: 'yg-jalnan';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
-@font-face {
-    font-family: 'JalnanGothic';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'JalnanGothic'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* RixInooAriDuri */
-@font-face {
-    font-family: 'RixInooAriDuriR';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'RixInooAriDuriR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2'); font-weight: normal; font-style: normal; } 
 
 /* tangsbudaejjigae */
-@font-face {
-    font-family: 'TTTtangsbudaejjigae';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeL.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'TTTtangsbudaejjigae';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeM.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'TTTtangsbudaejjigae';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
+@font-face { font-family: 'TTTtangsbudaejjigae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeL.woff2') format('woff2'); font-weight: 300; font-style: normal; } 
+@font-face { font-family: 'TTTtangsbudaejjigae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeM.woff2') format('woff2'); font-weight: 500; font-style: normal; } 
+@font-face { font-family: 'TTTtangsbudaejjigae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2'); font-weight: 700; font-style: normal; } 
 
 /* LeferiPoint */
-@font-face {
-    font-family: 'LeferiPoint';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
-    font-style:bold;
-    font-weight: 700;
-}
-@font-face {
-    font-family: 'LeferiPoint';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
-    font-style:light;
-    font-weight: 200;
-}
+@font-face { font-family: 'LeferiPoint'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff'); font-style:bold; font-weight: 700; } 
+@font-face { font-family: 'LeferiPoint'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff'); font-style:light; font-weight: 200; } 
 
 /* arita_buri */
-@font-face {
-    font-family: 'Arita-buri';
-    font-weight: 300;
-    font-style: light;
-    src:url("font/Arita-buriL.otf")format("opentype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Arita-buri';
-    font-weight: 500;
-    font-style: medium;
-    src:url("font/Arita-buriM.otf")format("opentype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Arita-buri';
-    font-weight: 600;
-    src:url("font/Arita-buriSB.otf")format("opentype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Arita-buri';
-    font-weight: 700;
-    font-style: bold;
-    src:url("font/Arita-buriB.otf")format("opentype");
-    font-display: swap;
-}
+@font-face { font-family: 'Arita-buri'; font-weight: 300; font-style: light; src:url("font/Arita-buriL.otf")format("opentype"); font-display: swap; } 
+@font-face { font-family: 'Arita-buri'; font-weight: 500; font-style: medium; src:url("font/Arita-buriM.otf")format("opentype"); font-display: swap; } 
+@font-face { font-family: 'Arita-buri'; font-weight: 600; src:url("font/Arita-buriSB.otf")format("opentype"); font-display: swap; } 
+@font-face { font-family: 'Arita-buri'; font-weight: 700; font-style: bold; src:url("font/Arita-buriB.otf")format("opentype"); font-display: swap; } 
 
 /* RIDIBatang */
-@font-face {
-    font-family: 'RIDIBatang';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; } 
 /* ChosunSm */
-@font-face {
-    font-family: 'ChosunSm';
-    src: url('font/ChosunSm.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'ChosunSm'; src: url('font/ChosunSm.woff') format('woff'); font-weight: normal; font-style: normal; } 
 /* MYArirang */
-@font-face {
-    font-family: 'MYArirang-Medium';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYArirang-Medium.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'MYArirang-Medium'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYArirang-Medium.woff2') format('woff2'); font-weight: normal; font-style: normal; } 
 /* BM Dohyeon */
-@font-face {
-    font-family: 'BMDOHYEON';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'BMDOHYEON'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* BM Yeonsung */
-@font-face {
-    font-family: 'BMYEONSUNG';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'BMYEONSUNG'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* Tenada */
-@font-face {
-    font-family: 'Tenada';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'Tenada'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2'); font-weight: normal; font-style: normal; } 
 /* Vitro core */
-@font-face {
-    font-family: 'VitroCore';
-    font-weight: normal;
-    font-style: normal;
-    src:url("font/VITRO-CORE.ttf")format("truetype");
-}
+@font-face { font-family: 'VitroCore'; font-weight: normal; font-style: normal; src:url("font/VITRO-CORE.ttf")format("truetype"); } 
 /* esamanru */
-@font-face {
-    font-family: 'GongGothic';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'GongGothic';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'GongGothic';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-}
+@font-face { font-family: 'GongGothic'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff'); font-weight: 300; font-style: normal; } 
+@font-face { font-family: 'GongGothic'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff'); font-weight: 400; font-style: normal; } 
+@font-face { font-family: 'GongGothic'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff'); font-weight: 700; font-style: normal; } 
 
 /* Gyeonggi Millennium Background */
-@font-face {
-    font-family: 'GyeonggiMillenniumBatang';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Batang_Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'GyeonggiMillenniumBatang';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Batang_Bold.woff') format('woff');
-    font-weight: 600;
-    font-style: bold;
-}
+@font-face { font-family: 'GyeonggiMillenniumBatang'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Batang_Regular.woff') format('woff'); font-weight: 400; font-style: normal; } 
+@font-face { font-family: 'GyeonggiMillenniumBatang'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Batang_Bold.woff') format('woff'); font-weight: 600; font-style: bold; } 
 
 /* godo */
-@font-face {
-    font-family: 'Godo';
-    font-style: normal;
-    font-weight: 400;
-    src: url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
-  }
-  
-  @font-face {
-    font-family: 'Godo';
-    font-style: normal;
-    font-weight: 700;
-    src: url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff');
-  }
+@font-face { font-family: 'Godo'; font-style: normal; font-weight: 400; src: url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff'); } 
+ 
+ @font-face { font-family: 'Godo'; font-style: normal; font-weight: 700; src: url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//fastly.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff'); } 
 
 /* ONE Mobile Title */
-@font-face {
-    font-family: 'ONE-Mobile-Title';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'ONE-Mobile-Title'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 /* Paperozi */
-@font-face {
-    font-family: 'Paperlogy';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2') format('woff2');
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Paperlogy';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-2ExtraLight.woff2') format('woff2');
-    font-weight: 200;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Paperlogy';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Paperlogy';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Paperlogy';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Paperlogy';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Paperlogy';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Paperlogy';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
-    font-weight: 800;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Paperlogy';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-9Black.woff2') format('woff2');
-    font-weight: 900;
-    font-style: normal;
-}
+@font-face { font-family: 'Paperlogy'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2') format('woff2'); font-weight: 100; font-style: normal; } 
+@font-face { font-family: 'Paperlogy'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-2ExtraLight.woff2') format('woff2'); font-weight: 200; font-style: normal; } 
+@font-face { font-family: 'Paperlogy'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2') format('woff2'); font-weight: 300; font-style: normal; } 
+@font-face { font-family: 'Paperlogy'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; } 
+@font-face { font-family: 'Paperlogy'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; } 
+@font-face { font-family: 'Paperlogy'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; } 
+@font-face { font-family: 'Paperlogy'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; } 
+@font-face { font-family: 'Paperlogy'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2'); font-weight: 800; font-style: normal; } 
+@font-face { font-family: 'Paperlogy'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-9Black.woff2') format('woff2'); font-weight: 900; font-style: normal; } 
 
 /* OKCHAN */
-@font-face {
-    font-family: 'OKCHAN';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/OKCHAN.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face {font-family: 'OKCHAN';src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/OKCHAN.woff2') format('woff2');font-weight: normal;font-style: normal; } 
+
+/* Arita-dotum */
+@font-face {font-weight: 300;font-family: 'ArittaDodum';src: url(font/AritaDotumKR-Thin_1.woff) format("woff");font-display: swap; } 
+@font-face {font-weight: 400;font-family: 'ArittaDodum';src: url(font/AritaDotumKR-Light_1.woff) format("woff");font-display: swap; } 
+@font-face {font-weight: 500;font-family: 'ArittaDodum';src: url(font/AritaDotumKR-Medium_1.woff) format("woff");font-display: swap; } 
+@font-face {font-weight: 600;font-family: 'ArittaDodum';src: url(font/AritaDotumKR-SemiBold_1.woff) format("woff");font-display: swap; } 
