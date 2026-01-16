@@ -272,3 +272,11 @@
 
 /* SangjuGotgam */
 @font-face { font-family: 'SangjuGotgam'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/SANJUGotgam.woff') format('woff'); font-weight: normal; font-display: swap; } 
+
+/* HakgyoansimGaeulsopung */
+@font-face { font-family:'HakgyoansimGaeulsopung'; font-style:normal; font-weight:300; src:local('HakgyoansimGaeulsopung'),
+  url(font/HakgyoansimGaeulsopungL.ttf)format("truetype"),
+  url(font/HakgyoansimGaeulsopungL.otf)format('opentype') } 
+ @font-face { font-family:'HakgyoansimGaeulsopung'; font-style:normal; font-weight:500; src:local('HakgyoansimGaeulsopung'),
+  url(font/HakgyoansimGaeulsopungB.ttf)format("truetype"),
+  url(font/HakgyoansimGaeulsopungB.otf)format('opentype') } 
