@@ -292,3 +292,9 @@
   font-weight: 700;
   font-display: swap;
 }
+
+/* Kyobo Handwriting 2020 */
+@font-face { font-family:'KyoboHandwriting2020pdy'; font-style:normal; font-weight:300; src:local('KyoboHandwriting2020pdy'),
+  url(font/KyoboHandwriting2020pdy.ttf)format("truetype"),
+  url(font/KyoboHandwriting2020pdy.otf)format('opentype')
+} 
