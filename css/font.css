@@ -298,3 +298,6 @@
   url(font/KyoboHandwriting2020pdy.ttf)format("truetype"),
   url(font/KyoboHandwriting2020pdy.otf)format('opentype')
 } 
+
+/* DONGGUK UNIVERSITY */
+@font-face { font-family: 'DONGGUK_UNIVERSITY'; src: url('font/DONGGUK_UNIVERSITY.ttf')format("truetype"); font-weight: normal; font-style: normal; } 
