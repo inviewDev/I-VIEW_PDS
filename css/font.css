@@ -301,3 +301,7 @@
 
 /* DONGGUK UNIVERSITY */
 @font-face { font-family: 'DONGGUK_UNIVERSITY'; src: url('font/DONGGUK_UNIVERSITY.ttf')format("truetype"); font-weight: normal; font-style: normal; } 
+
+/* GeneralKimJwajin */
+@font-face { font-family: 'GeneralKimJwajin'; src: url('font/GeneralKimJwajin_Regular.ttf')format("truetype"); font-weight: 500; font-style: normal; } 
+@font-face { font-family: 'GeneralKimJwajin'; src: url('font/GeneralKimJwajin_Bold.ttf')format("truetype"); font-weight: 700; font-style: bold; } 
