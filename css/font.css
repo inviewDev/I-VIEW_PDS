@@ -330,3 +330,6 @@
     src:url(font/Dobong_Cultural_Routes.ttf) format("truetype"), 
         url(font/Dobong_Cultural_Routes.otf) format('opentype');
 } 
+
+/* ChungjuKimSaeng */
+@font-face { font-family: 'ChungjuKimSaeng'; src: url('font/ChungjuKimSaeng.ttf')format("truetype"); font-weight: normal; font-style: normal; } 
