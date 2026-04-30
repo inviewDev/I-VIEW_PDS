@@ -333,3 +333,19 @@
 
 /* ChungjuKimSaeng */
 @font-face { font-family: 'ChungjuKimSaeng'; src: url('font/ChungjuKimSaeng.ttf')format("truetype"); font-weight: normal; font-style: normal; } 
+
+/* Hakgyoansim Chulseokbu */
+@font-face { 
+    font-family:'HakgyoansimChulseokbu'; 
+    font-style:normal; 
+    font-weight:300; 
+    src:url(font/Hakgyoansim_Chulseokbu_TTF_L.ttf) format("truetype"), 
+        url(font/Hakgyoansim_Chulseokbu_OTF_L.otf) format('opentype');
+} 
+@font-face { 
+    font-family:'HakgyoansimChulseokbu'; 
+    font-style:normal; 
+    font-weight:600; 
+    src:url(font/Hakgyoansim_Chulseokbu_TTF_B.ttf) format("truetype"), 
+        url(font/Hakgyoansim_Chulseokbu_OTF_B.otf) format('opentype');
+} 
